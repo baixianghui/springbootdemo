@@ -19,7 +19,7 @@ public class DemoController {
 	@ApiOperation(value = "test", notes = "")
 	public Object create(HttpServletRequest request, HttpServletResponse response) {
 		JSONObject result = new JSONObject();
-		result.put("msg", "success!!");
+		result.put("msg", "success!!!");
 		return result;
 	}
 }
