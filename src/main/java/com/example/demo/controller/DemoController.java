@@ -18,6 +18,7 @@ public class DemoController {
 	@RequestMapping(value = "test", method = { RequestMethod.POST })
 	@ApiOperation(value = "test", notes = "")
 	public Object create(HttpServletRequest request, HttpServletResponse response) {
+//		测试
 		JSONObject result = new JSONObject();
 		result.put("msg", "success!!!");
 		return result;
